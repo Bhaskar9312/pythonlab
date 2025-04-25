@@ -1,0 +1,51 @@
+.home
+{
+    background-image:url(toys.jpg);
+}
+.flex1
+{
+    display:flex;
+    background-color: black;
+    align-items: center;
+}
+
+.flex2
+{
+    display:flex;
+    background-color:#0F1111;
+}
+.flex2 div{
+    color:aliceblue;
+    display: block;
+    margin-left:25px ;
+    height:45px;
+    width:fit-content;
+    font-size:20px;
+}
+.box{
+    display:grid;
+    grid-template-rows:420px;
+    grid-template-columns: 306.66px 306.66px 306.66px 306.px;
+}
+.box2
+{
+    background-color: aliceblue;
+    padding-left:20px ;
+    padding-right:10px ;
+    margin-left:10px;
+    width:306.66px;
+    
+}
+.img
+{
+    width:150px;
+    height:125px
+}
+.border
+{
+    border-top-left-radius: 10px;
+}
+.flag
+{
+    width:25px;
+}
